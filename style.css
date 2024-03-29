@@ -1,0 +1,100 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #322424;
+    color: #5a2929;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  .logo img {
+    border-radius: 50%;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  .product-card h3 {
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .product-card p {
+    margin-bottom: 5px;
+  }
+ 
+  .product-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .card-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+    .product-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .team-card {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .team-card p, .product-card p {
+    color: #888;
+    
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    main {
+      padding: 40px;
+    }
+  
+    .team-card, .product-card {
+      display: flex;
+      align-items: center;
+    }
+  
+    .team-card img, .product-card img {
+      margin-right: 20px;
+    }
+  }
